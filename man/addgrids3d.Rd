@@ -39,6 +39,12 @@ Users who want to extend an existing scatterplot3d graphic with the
  function addgrids3d, should consider to set the arguments scale.y, angle, ...,
  to the value used in scatterplot3d.
 }
+\examples{
+library(scatterplot3d)
+data(iris)
+scatterplot3d(iris[, 1:3], pch = 16, grid=T, box=F)
+addgrids3d(iris[, 1:3], grid = c("xy", "xz", "yz"))
+}
 \references{
 http://www.sthda.com
 }

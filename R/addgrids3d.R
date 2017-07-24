@@ -24,7 +24,7 @@
 #' @author Alboukadel Kassambara \email{alboukadel.kassambara@@gmail.com}
 #' @references http://www.sthda.com
 #'
-#' @example
+#' @examples
 #' library(scatterplot3d)
 #' data(iris)
 #' scatterplot3d(iris[, 1:3], pch = 16, grid=T, box=F)
