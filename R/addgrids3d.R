@@ -30,6 +30,7 @@
 #' scatterplot3d(iris[, 1:3], pch = 16, grid=T, box=F)
 #' addgrids3d(iris[, 1:3], grid = c("xy", "xz", "yz"))
 #' @export
+#' @import graphics
 addgrids3d <- function(x, y=NULL, z=NULL, grid = TRUE,
                     col.grid = "grey", lty.grid = par("lty"),
                     lab = par("lab"), lab.z = mean(lab[1:2]),
